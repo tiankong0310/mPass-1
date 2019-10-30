@@ -6,11 +6,13 @@ import com.fasterxml.jackson.databind.annotation.JsonSerialize;
 import com.ibyte.common.util.JsonUtil;
 import com.ibyte.framework.meta.MetaEntity;
 import com.ibyte.framework.meta.MetaProperty;
+import com.ibyte.framework.serializer.ClassKeyMap;
 import lombok.Setter;
 import lombok.ToString;
 
 import java.util.HashMap;
 import java.util.LinkedHashMap;
+import java.util.List;
 import java.util.Map;
 
 /**
@@ -45,6 +47,9 @@ public class MetaEntityImpl implements MetaEntity {
 
     /** api */
     private String apiName;
+
+    /** property */
+    private List<String> tempProperty;
 
     /** 相关字段 */
     @JsonDeserialize(contentAs = MetaPropertyImpl.class)
@@ -118,5 +123,13 @@ public class MetaEntityImpl implements MetaEntity {
 
     public Map<String, Object> getFeatures() {
         return features;
+    }
+
+    public void addTempProperty(String tempProperty) {
+        this.tempProperty.add(tempProperty);
+    }
+
+    public List<String> getTempProperties() {
+        return this.tempProperty;
     }
 }
