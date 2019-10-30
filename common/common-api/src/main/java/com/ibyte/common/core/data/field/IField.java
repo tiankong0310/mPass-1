@@ -1,4 +1,4 @@
-package com.ibyte.common.core.data.fileld;
+package com.ibyte.common.core.data.field;
 
 /**
  * 字段接口，仅支持以下注解：
