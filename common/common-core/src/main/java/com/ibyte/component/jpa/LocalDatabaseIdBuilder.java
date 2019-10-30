@@ -12,7 +12,7 @@ import java.util.List;
 /**
  * 读取本地数据库ID
  * 
- * @author 叶中奇
+ * @author Li.Shangzhi
  */
 @Service
 public class LocalDatabaseIdBuilder implements DatabaseIdBuilder {
