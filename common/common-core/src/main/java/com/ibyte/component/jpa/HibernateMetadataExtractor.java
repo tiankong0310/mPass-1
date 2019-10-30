@@ -4,6 +4,7 @@ import com.ibyte.common.core.constant.IEnum;
 import com.ibyte.common.i18n.ResourceUtil;
 import com.ibyte.common.util.ReflectUtil;
 import com.ibyte.common.util.StringHelper;
+import com.ibyte.component.jpa.contributor.DynamicPropertyAccessStrategy;
 import com.ibyte.framework.meta.EnumItem;
 import com.ibyte.framework.meta.MetaConstant;
 import com.ibyte.framework.support.LocalMetaContextHolder;
@@ -136,6 +137,7 @@ public class HibernateMetadataExtractor
         }
         Class<?> javaType = type.getReturnedClass();
         if (javaType != null && IEnum.class.isAssignableFrom(javaType)) {
+            // 枚举信息
             fillPropEnumList(prop, javaType);
             Class<?> valueClass = ReflectUtil.getActualClass(javaType,
                     IEnum.class, "V");
@@ -165,7 +167,7 @@ public class HibernateMetadataExtractor
                 }
             }
         }
-        // 动态
+        // 处理动态
         if (DynamicPropertyAccessStrategy.class.getName()
                 .equals(attr.getPropertyAccessorName())
                 && BeanUtils.getPropertyDescriptor(clazz,
