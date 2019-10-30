@@ -71,6 +71,9 @@ public class MetaPropertyImpl implements MetaProperty {
     /** 属性 */
     private List<String> voProperties;
 
+    /** 枚举集合*/
+    private List<EnumItem> enumList;
+
     /** 显示类型 */
     private MetaConstant.ShowType showType;
 
