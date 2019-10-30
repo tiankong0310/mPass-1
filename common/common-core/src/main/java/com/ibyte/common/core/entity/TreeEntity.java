@@ -1,7 +1,7 @@
 package com.ibyte.common.core.entity;
 
 import com.ibyte.common.core.data.IData;
-import com.ibyte.common.core.data.fileld.IField;
+import com.ibyte.common.core.data.field.IField;
 import com.ibyte.framework.meta.annotation.MetaProperty;
 import com.ibyte.framework.meta.MetaConstant.ShowType;
 import org.hibernate.validator.constraints.Length;
