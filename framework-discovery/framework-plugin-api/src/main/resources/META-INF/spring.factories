@@ -1,2 +1,0 @@
-org.springframework.boot.SpringApplicationRunListener=\
-  com.ibyte.framework.support.loader.SystemLoadListener
