@@ -1,4 +1,4 @@
-# mPass （Microservice Pass）
+# Microservice Pass
 <p align="center">
 	<a target="_blank" href="https://search.maven.org/search?q=M-PasS">
 		<img src="https://img.shields.io/badge/Maven Central-1.12.0-blue.svg" ></img>
