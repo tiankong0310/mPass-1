@@ -1,7 +1,4 @@
 <p align="center">
-	<a href="http://mpass.gitee.io/zh-cn"><img src="https://images.gitee.com/uploads/images/2019/1009/235538_73450b95_1468963.png" width="700"></a>
-</p>
-<p align="center">
 	<a target="_blank" href="https://search.maven.org/search?q=M-PasS">
 		<img src="https://img.shields.io/badge/Maven Central-1.12.0-blue.svg" ></img>
 	</a>
