@@ -112,23 +112,6 @@
 ## 项目详细部署图
 ![输入图片说明](https://images.gitee.com/uploads/images/2019/1025/005737_ba969737_1468963.png "deploy.png")
 
-## 项目部分展示图
-
-<table>
-    <tr>
-        <td><img src="https://images.gitee.com/uploads/images/2019/1023/105813_2678586b_1468963.png"/></td>   
-        <td><img src="https://images.gitee.com/uploads/images/2019/1023/105813_42dbd65f_1468963.png"/></td>
-    </tr>
-    <tr>
-        <td><img src="https://images.gitee.com/uploads/images/2019/1023/105750_536c2d49_1468963.jpeg"/></td>   
-        <td><img src="https://images.gitee.com/uploads/images/2019/1023/105813_12560953_1468963.jpeg"/></td>
-    </tr>
-    <tr>
-        <td><img src="https://images.gitee.com/uploads/images/2019/1025/005302_0b973162_1468963.png"/></td>
-        <td><img src="https://images.gitee.com/uploads/images/2019/1025/005311_e968ed2c_1468963.png "日志管理.png"/></td>
-    </tr>
-</table>
-
 ## 如果您觉得有帮助，请点右上角 "Star" 支持一下~谢谢
 **交流群**
 <table border="0">
