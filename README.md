@@ -94,8 +94,16 @@
     - [x] framework-plugin-client
     - [x] framework-plugin-core
 - [x] framework-gateway
-    - [ ] framework-gateway-api
-    - [ ] framework-gateway-core
+    - [x] framework-gateway-api
+    - [x] framework-gateway-core
+- [x] framework-gateway
+    - [x] framework-gateway-api
+    - [x] framework-gateway-core
+- [x] package
+     - [x] mvn-min
+     - [x] mvn-parent
+     - [x] starter-discovery-center
+     - [x] starter-mpass-server    
 - [x] sys-job
     - [ ] sys-job-api
     - [ ] sys-job-client
