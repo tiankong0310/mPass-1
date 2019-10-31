@@ -82,32 +82,6 @@
 
 **查看更新记录请移步**
 [目前进度](https://gitee.com/ibyte/M-Pass/blob/master/UPDAT-RECORD.md)
-- [x] common
-    - [x] common-base
-    - [x] common-api 
-    - [x] common-core
-- [x] framework-discovery
-    - [x] framework-discovery-api
-    - [x] framework-discovery-client
-    - [x] framework-discovery-core
-    - [x] framework-plugin-api
-    - [x] framework-plugin-client
-    - [x] framework-plugin-core
-- [x] framework-gateway
-    - [x] framework-gateway-api
-    - [x] framework-gateway-core
-- [x] framework-gateway
-    - [x] framework-gateway-api
-    - [x] framework-gateway-core
-- [x] package
-     - [x] mvn-min
-     - [x] mvn-parent
-     - [x] starter-discovery-center
-     - [x] starter-mpass-server    
-- [x] sys-job
-    - [ ] sys-job-api
-    - [ ] sys-job-client
-    - [ ] sys-job-core
 
 ## 项目详细部署图
 ![输入图片说明](https://images.gitee.com/uploads/images/2019/1025/005737_ba969737_1468963.png "deploy.png")
