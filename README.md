@@ -1,6 +1,4 @@
-<p align="center">
-	<a href="http://mpass.gitee.io/zh-cn"><img src="https://images.gitee.com/uploads/images/2019/1009/235538_73450b95_1468963.png" width="700"></a>
-</p>
+# mPass （Microservice Pass）
 <p align="center">
 	<a target="_blank" href="https://search.maven.org/search?q=M-PasS">
 		<img src="https://img.shields.io/badge/Maven Central-1.12.0-blue.svg" ></img>
@@ -25,7 +23,6 @@
 	 </a>
 </p>
 
-# mPass （Microservice Pass）
 基于SpringBoot2.x、SpringCloud并采用前后端分离的企业级微服务,多租户系统架构微服务开发平台 mPaaS（Microservice PaaS）为租户业务开发、测试、运营及运维开源框架，能有效降低技术门槛、减少研发成本、提升开发效率，协助企业快速搭建稳定高质量的微服务应用;同时还集合各种微服务治理功能和监控功能。模块包括:企业级的认证系统、开发平台、应用监控、慢sql监控、统一日志、单点登录、Redis分布式高速缓存、配置中心、分布式任务调度、接口文档、代码生成等等
 
 [TOC]
@@ -36,7 +33,7 @@
     _  /  / /_/_____/  ____// /_/ /_(__  )_(__  )
     /_/  /_/        /_/     \__,_/ /____/ /____/  
 
-**作者**：iByte (码哥 or Li.shangzhi)
+**作者**：iByte (码哥)
 
 ## 如果您觉得有帮助，请点右上角 "Star" 支持一下谢谢
 
@@ -82,64 +79,19 @@
 
 **查看更新记录请移步**
 [目前进度](https://gitee.com/ibyte/M-Pass/blob/master/UPDAT-RECORD.md)
-- [x] common
-    - [x] common-base
-    - [x] common-api 
-    - [x] common-core
-- [x] framework-discovery
-    - [x] framework-discovery-api
-    - [x] framework-discovery-client
-    - [x] framework-discovery-core
-    - [x] framework-plugin-api
-    - [x] framework-plugin-client
-    - [x] framework-plugin-core
-- [x] framework-gateway
-    - [x] framework-gateway-api
-    - [x] framework-gateway-core
-- [x] framework-gateway
-    - [x] framework-gateway-api
-    - [x] framework-gateway-core
-- [x] package
-     - [x] mvn-min
-     - [x] mvn-parent
-     - [x] starter-discovery-center
-     - [x] starter-mpass-server    
-- [x] sys-job
-    - [ ] sys-job-api
-    - [ ] sys-job-client
-    - [ ] sys-job-core
 
 ## 项目详细部署图
 ![输入图片说明](https://images.gitee.com/uploads/images/2019/1025/005737_ba969737_1468963.png "deploy.png")
-
-## 项目部分展示图
-
-<table>
-    <tr>
-        <td><img src="https://images.gitee.com/uploads/images/2019/1023/105813_2678586b_1468963.png"/></td>   
-        <td><img src="https://images.gitee.com/uploads/images/2019/1023/105813_42dbd65f_1468963.png"/></td>
-    </tr>
-    <tr>
-        <td><img src="https://images.gitee.com/uploads/images/2019/1023/105750_536c2d49_1468963.jpeg"/></td>   
-        <td><img src="https://images.gitee.com/uploads/images/2019/1023/105813_12560953_1468963.jpeg"/></td>
-    </tr>
-    <tr>
-        <td><img src="https://images.gitee.com/uploads/images/2019/1025/005302_0b973162_1468963.png"/></td>
-        <td><img src="https://images.gitee.com/uploads/images/2019/1025/005311_e968ed2c_1468963.png "日志管理.png"/></td>
-    </tr>
-</table>
 
 ## 如果您觉得有帮助，请点右上角 "Star" 支持一下~谢谢
 **交流群**
 <table border="0">
     <tr>
-        <td>QQ交流群：(877056205) mPaaS</td>
         <td>微信交流群：微信群(加微信入群)</td>
         <td>微信公众号：码农架构</font></td>
     </tr>
     <tr>&nbsp;</tr>
     <tr>
-        <td><img title="QQ交流群-877056205" src="https://images.gitee.com/uploads/images/2019/1023/154958_d9571f28_111383.png" height="200" width="200"/></td>
         <td><img title="微信交流群" src="https://images.gitee.com/uploads/images/2019/1024/005422_572e6525_1468963.png" height="200" width="220"/></td>
         <td><img title="微信公众号-微技术栈" src="https://images.gitee.com/uploads/images/2019/1023/155117_006731a8_111383.jpeg" height="200" width="200"/></td>
     </tr>
