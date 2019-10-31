@@ -1,4 +1,6 @@
-# mPass （Microservice Pass）
+<p align="center">
+	<a href="#"><img src="https://images.gitee.com/uploads/images/2019/1009/235538_73450b95_1468963.png" width="700"></a>
+</p>
 <p align="center">
 	<a target="_blank" href="https://search.maven.org/search?q=M-PasS">
 		<img src="https://img.shields.io/badge/Maven Central-1.12.0-blue.svg" ></img>
@@ -26,16 +28,8 @@
 基于SpringBoot2.x、SpringCloud并采用前后端分离的企业级微服务,多租户系统架构微服务开发平台 mPaaS（Microservice PaaS）为租户业务开发、测试、运营及运维开源框架，能有效降低技术门槛、减少研发成本、提升开发效率，协助企业快速搭建稳定高质量的微服务应用;同时还集合各种微服务治理功能和监控功能。模块包括:企业级的认证系统、开发平台、应用监控、慢sql监控、统一日志、单点登录、Redis分布式高速缓存、配置中心、分布式任务调度、接口文档、代码生成等等
 
 [TOC]
+> 目前只是架构初步构思图
 
-    ______  ___     ________                      
-    ___   |/  /     ___  __ \_____ _______________
-    __  /|_/ /________  /_/ /  __ `/_  ___/_  ___/
-    _  /  / /_/_____/  ____// /_/ /_(__  )_(__  )
-    /_/  /_/        /_/     \__,_/ /____/ /____/  
-
-**作者**：iByte (码哥)
-
-## 如果您觉得有帮助，请点右上角 "Star" 支持一下谢谢
 
 ## 项目总体架构图
 ![项目架构图](https://images.gitee.com/uploads/images/2019/1018/020143_0d434b4a_1468963.jpeg "mPass_Springcloud微服务架构.jpg")
