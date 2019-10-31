@@ -23,7 +23,6 @@
 - 2019年10月12日  
     - 模块依赖包整理，版本控制迁移至mvn-parent，mvn-min统一管理
     - 展现对象基类，通用展现对象：fdId,fdName，界面展现对象接口，Validation常用校验，constant基础常量
-    - mpass开源社区构建`` [mPass开源社区](http://mpass.gitee.io/zh-cn),组件划分,和架构主要在此更新
 - 2019年10月13日
     - React前端环境构建,基础包构建,完善mpass开源社区
 - 2019年10月14日
