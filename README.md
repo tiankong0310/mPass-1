@@ -50,3 +50,19 @@
 
 ## 项目详细部署图
 ![输入图片说明](https://images.gitee.com/uploads/images/2019/1025/005737_ba969737_1468963.png "deploy.png")
+
+![输入图片说明](https://images.gitee.com/uploads/images/2019/1111/175611_70417f38_1468963.png "QQ群-877056205.png")
+**交流群**
+<table border="0">
+    <tr>
+        <td>微信交流群：微信群(加微信入群)</td>
+        <td>微信公众号：码农架构</font></td>
+        <td>Q群：QQ交流群</font></td>
+    </tr>
+    <tr>&nbsp;</tr>
+    <tr>
+        <td><img title="微信交流群" src="https://images.gitee.com/uploads/images/2019/1111/175326_2a1374a3_1468963.png" height="200" width="200"/></td>
+        <td><img title="微信公众号-微技术栈" src="https://images.gitee.com/uploads/images/2019/1111/175334_5ee70c7b_1468963.jpeg" height="200" width="200"/></td>
+        <td><img title="QQ交流群" src="https://images.gitee.com/uploads/images/2019/1111/175611_70417f38_1468963.png" height="200" width="200"/></td>
+    </tr>
+</table>
