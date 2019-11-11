@@ -51,7 +51,6 @@
 ## 项目详细部署图
 ![输入图片说明](https://images.gitee.com/uploads/images/2019/1025/005737_ba969737_1468963.png "deploy.png")
 
-![输入图片说明](https://images.gitee.com/uploads/images/2019/1111/175611_70417f38_1468963.png "QQ群-877056205.png")
 **交流群**
 <table border="0">
     <tr>
