@@ -216,48 +216,48 @@
 
             <!--基础架构包-->
             <dependency>
-                <groupId>com.mpaas</groupId>
+                <groupId>com.ibyte</groupId>
                 <artifactId>common-api</artifactId>
                 <version>${mpaas.version}${deploy.version}</version>
             </dependency>
             <dependency>
-                <groupId>com.mpaas</groupId>
+                <groupId>com.ibyte</groupId>
                 <artifactId>common-base</artifactId>
                 <version>${mpaas.version}${deploy.version}</version>
             </dependency>
             <dependency>
-                <groupId>com.mpaas</groupId>
+                <groupId>com.ibyte</groupId>
                 <artifactId>common-core</artifactId>
                 <version>${mpaas.version}${deploy.version}</version>
             </dependency>
 
             <dependency>
-                <groupId>com.mpaas</groupId>
+                <groupId>com.ibyte</groupId>
                 <artifactId>framework-discovery-api</artifactId>
                 <version>${mpaas.version}${deploy.version}</version>
             </dependency>
             <dependency>
-                <groupId>com.mpaas</groupId>
+                <groupId>com.ibyte</groupId>
                 <artifactId>framework-discovery-client</artifactId>
                 <version>${mpaas.version}${deploy.version}</version>
             </dependency>
             <dependency>
-                <groupId>com.mpaas</groupId>
+                <groupId>com.ibyte</groupId>
                 <artifactId>framework-discovery-core</artifactId>
                 <version>${mpaas.version}${deploy.version}</version>
             </dependency>
             <dependency>
-                <groupId>com.mpaas</groupId>
+                <groupId>com.ibyte</groupId>
                 <artifactId>framework-plugin-api</artifactId>
-                <version>${mpaas.version}</version>
+                <version>${mpaas.version}${deploy.version}</version>
             </dependency>
             <dependency>
-                <groupId>com.mpaas</groupId>
+                <groupId>com.ibyte</groupId>
                 <artifactId>framework-plugin-client</artifactId>
                 <version>${mpaas.version}${deploy.version}</version>
             </dependency>
             <dependency>
-                <groupId>com.mpaas</groupId>
+                <groupId>com.ibyte</groupId>
                 <artifactId>framework-plugin-core</artifactId>
                 <version>${mpaas.version}${deploy.version}</version>
             </dependency>
