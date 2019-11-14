@@ -1,5 +1,7 @@
 package com.ibyte.framework.discovery;
 
+import com.ibyte.framework.discovery.client.interceptor.DiscoveryHeaderClientFilter;
+import com.ibyte.framework.discovery.listener.EurekaClientEventListener;
 import com.netflix.discovery.DiscoveryClient;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.context.properties.EnableConfigurationProperties;
