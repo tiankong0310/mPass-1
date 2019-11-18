@@ -36,8 +36,8 @@ public class ApplicationConfigService
     @Autowired
     private ApplicationConfigRepository repository;
 
-//    @Autowired
-//    private AfterCommit afterCommit;
+    @Autowired
+    private AfterCommit afterCommit;
 
     @Autowired
     private RedissonClient redisson;
@@ -53,13 +53,13 @@ public class ApplicationConfigService
         // 保存
         repository.save(entity);
         // 清理缓存
-//        afterCommit.execute(new Runnable() {
-//            @Override
-//            public void run() {
-//                getCache(entity.getFdId()).set(entity.getFdContent(),
-//                        CACHE_EXPIRE_DAY, TimeUnit.DAYS);
-//            }
-//        });
+        afterCommit.execute(new Runnable() {
+            @Override
+            public void run() {
+                getCache(entity.getFdId()).set(entity.getFdContent(),
+                        CACHE_EXPIRE_DAY, TimeUnit.DAYS);
+            }
+        });
     }
 
     @Override
