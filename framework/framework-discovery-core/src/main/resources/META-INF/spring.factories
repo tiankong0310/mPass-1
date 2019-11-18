@@ -1,11 +1,11 @@
 # Bootstrap components
 org.springframework.cloud.bootstrap.BootstrapConfiguration=\
-com.landray.framework.discovery.core.encryptor.CustomEncryptionBootstrapConfiguration
+com.ibyte.framework.discovery.core.encryptor.CustomEncryptionBootstrapConfiguration
 # Autoconfiguration
 org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
-com.landray.framework.discovery.core.encryptor.CustomEncryptionBootstrapConfiguration
+com.ibyte.framework.discovery.core.encryptor.CustomEncryptionBootstrapConfiguration
 # 初始配置
 com.ibyte.component.config.DefaultConfigFactory=\
-  com.landray.framework.discovery.core.license.LicensePropConfigFactory
+  com.ibyte.framework.discovery.core.license.LicensePropConfigFactory
 
 
