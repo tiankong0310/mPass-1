@@ -1,5 +1,4 @@
 package com.ibyte.framework.discovery.core.encryptor;
-
 import org.springframework.boot.autoconfigure.AutoConfigureBefore;
 import org.springframework.boot.context.properties.EnableConfigurationProperties;
 import org.springframework.cloud.bootstrap.encrypt.EncryptionBootstrapConfiguration;
